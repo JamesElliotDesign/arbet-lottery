@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .stats {
+    @apply bg-[#1a202c] text-white p-4 flex-1 rounded-md border-2 border-[#12aafe];
+  }
+
+  .stats-container {
+    @apply bg-[#1a202c] p-5 rounded-lg border-[#12aafe] border;
+  }
+
+  .fees {
+    @apply flex items-center justify-between text-emerald-300 text-xs italic;
+  }
+
+  .countdown {
+    @apply p-8 text-5xl text-center text-white rounded-lg lg:min-w-[150px] bg-[#12aafe];
+  }
+
+  .countdown-label {
+    @apply text-center text-white uppercase text-sm p-4;
+  }
+
+  .adminBtn {
+    @apply bg-[#1a202c] p-2 flex-1 rounded-md border-[#12aafe] border-2 hover:bg-emerald-500/50;
+  }
+}
